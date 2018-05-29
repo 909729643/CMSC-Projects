@@ -1,0 +1,4 @@
+1. Make sure all the files are in the directory where transactions.py is contained.
+2. "python recovery-test.py"
+3. If the student_generated_relation fails it is recommended to compare it to correct_relation using some sort of diff checker. (hint: this mainly tests the REDO phase)
+4. If the recoverytest_logfile fails it is recommended to compare it to correct_logfile using some sort of diff checker. (hint: this mainly tests the UNDO phase)
